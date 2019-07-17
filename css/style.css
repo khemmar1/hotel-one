@@ -1,4 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
 * {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+select {
+    outline: none;
+}
+
+
+.header-wrapper {
+    background: url(../img/5d2eed7ec4a97.jpg);
+    height: 100vh;
+}
+
+.header-overlay {
+    background: rgba(50, 42, 83, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, .85);
+}
+
+.logo {
+    margin: 10px 0;
+}
+
+.contact-no a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #333
+}
+
+.contact-no .phone {
+    margin-right: 10px;
+} 
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.home-content {
+    width: 50%
+}
+
+.home-content .first-content {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.home-content .second-content {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5
+}
+
+.home-content .third-content {
+    line-height: 1.8;
+    padding-bottom: 20px;
+}
+
+.home-content span {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.purchaseBtn {
+    text-decoration: none;
+    color: #fff;
+    background: #e3a024;
+    padding: 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 20%;
+    display: block;
+    text-align: center;
+}
+
+.qbookbox {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.qbb-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #e3a024;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.qbookbox input {
+    width: 324px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    font-family: 'Lato', sans-serif;
+}
+
+.booking {
+    display: flex;
+    padding: 10px;
+} 
+
+.booking select {
+    width: 50%;
+    padding: 10px;
+    margin: 0 5px;
+    font-family: 'Lato', sans-serif
+}
+
+.hotel-following {
+    display: flex;
+    margin: 5px;
+}
+
+.hotel-following select {
+    width: 33.33%;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.comments {
+    width: 97%;
+    margin: 10px 0;
+    border-radius: 3px;
+    height: 100px;
+    outline: 0;
+    font-family: 'Lato', sans-serif
+
+    
+}
+
+.requestBtn {
+    border: 0;
+    background: #e3a024;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
