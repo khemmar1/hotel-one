@@ -53,7 +53,7 @@ select {
 .home {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 
 
 }
@@ -65,7 +65,7 @@ select {
 .home-content .first-content {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 32px
 }
 
 .home-content .second-content {
@@ -76,13 +76,13 @@ select {
 
 .home-content .third-content {
     line-height: 1.8;
-    padding-bottom: 20px;
+    padding-bottom: 20px
 }
 
 .home-content span {
     color: #fff;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 
 .purchaseBtn {
@@ -95,7 +95,7 @@ select {
     font-weight: 700;
     width: 20%;
     display: block;
-    text-align: center;
+    text-align: center
 }
 
 .qbookbox {
@@ -111,7 +111,7 @@ select {
     font-size: 28px;
     color: #e3a024;
     font-weight: 700;
-    padding-bottom: 20px;
+    padding-bottom: 20px
 }
 
 .qbookbox input {
@@ -120,12 +120,12 @@ select {
     margin: 10px;
     border: 1px solid #999;
     border-radius: 3px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif
 }
 
 .booking {
     display: flex;
-    padding: 10px;
+    padding: 10px
 } 
 
 .booking select {
@@ -137,13 +137,13 @@ select {
 
 .hotel-following {
     display: flex;
-    margin: 5px;
+    margin: 5px
 }
 
 .hotel-following select {
     width: 33.33%;
     padding: 10px;
-    margin: 0 5px;
+    margin: 0 5px
 }
 
 .comments {
@@ -168,6 +168,73 @@ select {
     font-weight: 700;
     font-size: 18px;
 }
+
+.rooms {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+.room-img {
+    position: relative;
+
+}
+
+
+
+.room-img img {
+    width: 450px;
+}
+
+
+.discount {
+    width: 70px;
+    height: 70px;
+    background: rgba(0,0,0,.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.discount h2 {
+    text-align: center;
+    color: rgb(255,255,255);
+}
+
+
+.room-content {
+    width: 50%
+}
+
+.room-content h3 {
+    color: #62549b;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.room-content p {
+    line-height: 1.5
+}
+
+
+.room_name {
+    position: absolute;
+    bottom: 13px;
+}
+
+.room_name span:first-child {
+    background: #62549b;
+    color: #fff;
+    padding: 10px;
+}
+
+.room_name span:nth-of-child(2) {
+    background: #e3a024;
+    padding: 10px;
+    color: #fff
+}
+
 
 
 
