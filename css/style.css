@@ -229,7 +229,7 @@ select {
     padding: 10px;
 }
 
-.room_name span:nth-of-child(2) {
+.room_name span:nth-of-type(2) {
     background: #e3a024;
     padding: 10px;
     color: #fff
