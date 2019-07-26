@@ -236,6 +236,70 @@ select {
 }
 
 
+.rooms-offer {
+    background: url(../img/offer-bg.png);
+    background-size: cover;
+    height: 30vh;
+    /* color: #fff; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.rooms-offer .border-circle {
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    background: transparent;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: #e3a024;
+    font-size: 18px;
+    position: relative;
+
+}
+
+.rooms-offer .discountVal {
+    background: #fff;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+}
+
+.offer-desc h2 {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.offer-desc p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5
+}
+
+.rooms-offer .grabNow a {
+    text-decoration: none;
+    background: #e3a024;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+
+
+
+
+
 
 
 
