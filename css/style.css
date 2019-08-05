@@ -295,6 +295,90 @@ select {
     border-radius: 2px;
 }
 
+.hotel-restaurant {
+    background: url(../img/restaurant_bg.png);
+    height: 90vh;
+}
+
+.hotel-restaurant .restaurant-title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    position: relative; 
+}
+
+
+.hotel-restaurant .restaurant-title::before {
+    content: '';
+    width: 70px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    top: 47%;
+    left: 36%;
+}
+
+.hotel-restaurant .restaurant-title::after {
+    content: '';
+    width: 70px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    right: 36%
+
+}
+
+.content-restaurant {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.res-img {
+    width: 45%
+}
+
+.res-desc {
+    width: 45%
+}
+
+.content-restaurant img {
+    width: 500px;
+    border: 10px solid #ccc;
+}
+
+.title-r {
+    padding-bottom: 20px;
+    text-transform: uppercase
+}
+
+.res-desc p{
+    padding-bottom: 20px;
+}
+
+.res-desc p {
+    line-height: 1.5
+
+}
+
+.res-list {
+    list-style: none;
+}
+
+.res-list li {
+    padding-bottom: 10px; 
+}
+
+.res-list li span {
+    margin-left: 10px;
+}
+
+
+
 
 
 
